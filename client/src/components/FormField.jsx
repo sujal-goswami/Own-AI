@@ -4,7 +4,7 @@ const FormField = ({
   labelName,
   type,
   name,
-  placeholder, 
+  placeholder,
   value,
   handleChange,
   isSurpriseMe,
