@@ -19,7 +19,6 @@ router.route('/').post(async (req, res) => {
     const model = 'flux';
     const imageUrl = `https://pollinations.ai/p/${encodeURIComponent(prompt)}?width=${width}&height=${height}&seed=${seed}&model=${model}`;
 
-    // get image from this url
     const response = await fetch(imageUrl);
     const arrayBuffer = await response.arrayBuffer();
     const image = Buffer.from(arrayBuffer).toString('base64');  

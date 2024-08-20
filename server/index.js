@@ -19,7 +19,7 @@ app.use('/api/v1/healthcheck', healthcheck);
 
 app.get('/', async (req, res) => {
   res.status(200).json({
-    message: 'Hello from DALL.E!',
+    message: 'Hello from Own-AI !',
   });
 });
 
