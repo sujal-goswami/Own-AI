@@ -1,1 +1,1 @@
-# Ai-image-generator
+# Own-AI
