@@ -6,7 +6,7 @@ dotenv.config();
 const router = express.Router();
 
 router.route('/').get((req, res) => {
-  res.status(200).json({ message: 'Hello from DALL-E!' });
+  res.status(200).json({ message: 'Hello from Own-AI !' });
 });
 
 router.route('/').post(async (req, res) => {
