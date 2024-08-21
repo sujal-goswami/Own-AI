@@ -78,10 +78,10 @@ The Image Generator is a web application that allows users to create images base
     ```
 
 ## Contributing
-Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request. Let's make 🤖Own-AI even better together! for more details refer [CONTRIBUTING.md]() .
+Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request. Let's make 🤖Own-AI even better together! for more details refer [CONTRIBUTING.md](https://github.com/sujal-goswami/Own-AI/blob/main/CONTRIBUTING.md) .
 
 ## License
-🤖Own-AI is licensed under the [MIT License]() . Feel free to modify, distribute, and use the code for personal or commercial projects.
+🤖Own-AI is licensed under the [MIT License](https://github.com/sujal-goswami/Own-AI/blob/main/LICENSE) . Feel free to modify, distribute, and use the code for personal or commercial projects.
 
 
 
