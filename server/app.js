@@ -19,7 +19,7 @@ import healthcheck from './routes/healthcheck.js';
 
 //routes declaration
 app.use('/api/v1/post', postRoutes);
-app.use('/api/v1/dalle', imageRoutes);
+app.use('/api/v1/generateImage', imageRoutes);
 app.use('/api/v1/healthcheck', healthcheck);
 
 
