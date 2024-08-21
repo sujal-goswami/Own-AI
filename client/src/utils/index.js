@@ -11,11 +11,6 @@ export function getRandomPrompt(prompt) {
 }
 
 export async function downloadImage(_id, photo) {
-  try {
-    const response = await fetch(photoUrl);
-    const blob = await response.blob();
-    FileSaver.saveAs(blob, `download-${_id}.jpg`);
-  } catch (error) {
-    console.error('Error downloading the image:', error);
-  }
+  const securePhotoUrl = photo.startsWith('http://') ? photo.replace('http://', 'https://') : photo;
+  FileSaver.saveAs(securePhotoUrl, `download-${_id}.jpg`);
 }
