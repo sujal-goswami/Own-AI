@@ -81,8 +81,8 @@ const CreatePost = () => {
   return (
     <section className="max-w-7xl mx-auto">
       <div>
-        <h1 className="font-extrabold text-[#222328] text-[32px]">Create</h1>
-        <p className="mt-2 text-[#666e75] text-[14px] max-w-[500px]">Generate an imaginative image through <span className='font-bold font-serif text-lg'>Own-AI</span> and share it with the community</p>
+        <h1 className="font-extrabold text-[#222328] text-[32px] dark:text-white">Create</h1>
+        <p className="mt-2 text-[#666e75] text-[14px] max-w-[500px] dark:text-gray-400">Generate an imaginative image through <span className='font-bold font-serif text-lg dark:text-gray-300'>Own-AI</span> and share it with the community</p>
       </div>
 
       <form className="mt-16 max-w-3xl" onSubmit={handleSubmit}>

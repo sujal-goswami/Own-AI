@@ -2,22 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+
 * {
-	font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
+  transition: color 0.5s ease, background-color 0.6s ease; 
 }
 
+/* Grid layout adjustment */
 @media screen and (min-width: 480px) {
-	.card:nth-child(7n + 1) {
-		grid-column: auto/span 2;
-		grid-row: auto/span 2;
-	}
+  .card:nth-child(7n + 1) {
+    grid-column: auto/span 2;
+    grid-row: auto/span 2;
+  }
 }
 
 .prompt::-webkit-scrollbar {
-	width: 5px;
+  width: 5px;
 }
 
 .prompt::-webkit-scrollbar-thumb {
-	background-color: #666e75;
-	border-radius: 5px;
+  background-color: #666e75;
+  border-radius: 5px;
 }
+
+
