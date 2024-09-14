@@ -8,10 +8,10 @@ const getImage = asyncHandler(async (req, res) => {
         const { prompt } = req.body;
         
         const width = 1024;
-        const height = 1034;
+        const height = 1024;
         const seed = 42;
         const model = 'flux';
-        const imageUrl = `https://pollinations.ai/p/${encodeURIComponent(prompt)}?width=${width}&height=${height}&seed=${seed}&model=${model}&nologo=true&enhance=true`;
+        const imageUrl = `https://pollinations.ai/p/${encodeURIComponent(prompt)}?width=${width}&height=${height}&seed=${seed}&model=${model}&nologo=true`;
     
         const response = await fetch(imageUrl);
         const arrayBuffer = await response.arrayBuffer();
